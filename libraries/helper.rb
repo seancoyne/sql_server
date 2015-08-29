@@ -81,7 +81,7 @@ module SqlServer
         when '2012'
           '7f5e3d40b85fba2da5093e3621435c209c4ac90d34219bab8878e93a787cf29f'
         when '2014'
-          ''
+          '8f712faefee9cef1d15494c9d6cf5ad3b45ec06d0b2c247f8384a221baaadda7'
         end
       else
         case version
@@ -90,7 +90,7 @@ module SqlServer
         when '2012'
           '9bdd6a7be59c00b0201519b9075601b1c18ad32a3a166d788f3416b15206d6f5'
         when '2014'
-          ''
+          'dfed00b9d7adf0aa200e6e1593a4411b370fc1a3e8d7238a364a0eb775924898'
         end
       end
     end
