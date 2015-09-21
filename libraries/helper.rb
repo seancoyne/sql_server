@@ -37,7 +37,7 @@ module SqlServer
         when '2012'
           'http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe'
         when '2014'
-          'http://download.microsoft.com/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/Express%2064BIT/SQLEXPR_x64_ENU.exe'
+          'http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SQLEXPR_x64_ENU.exe'
         end
       else
         case version
@@ -46,7 +46,7 @@ module SqlServer
         when '2012'
           'http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe'
         when '2014'
-        	'http://download.microsoft.com/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/Express%2032BIT/SQLEXPR_x86_ENU.exe'
+        	'http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x86/SQLEXPR_x86_ENU.exe'
         end
       end
     end
@@ -81,7 +81,7 @@ module SqlServer
         when '2012'
           '7f5e3d40b85fba2da5093e3621435c209c4ac90d34219bab8878e93a787cf29f'
         when '2014'
-          '8f712faefee9cef1d15494c9d6cf5ad3b45ec06d0b2c247f8384a221baaadda7'
+          '9ef932397a715c39a18404216e9cfa757f8fcc0ab3a226b48c200538d2a7009d'
         end
       else
         case version
@@ -90,7 +90,7 @@ module SqlServer
         when '2012'
           '9bdd6a7be59c00b0201519b9075601b1c18ad32a3a166d788f3416b15206d6f5'
         when '2014'
-          'dfed00b9d7adf0aa200e6e1593a4411b370fc1a3e8d7238a364a0eb775924898'
+          '9782ef313ceee7257d45785cfee6f59f57d3fcddbd603d2ad58b73694e9b7d46'
         end
       end
     end
