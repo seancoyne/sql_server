@@ -126,9 +126,9 @@ service service_name do
 end
 
 # SQL Server requires a reboot to complete your install
-reboot 'sql server install' do
-  action :nothing
-  reason 'Needs to reboot after installing SQL Server'
-end
+# reboot 'sql server install' do
+#   action :nothing
+#   reason 'Needs to reboot after installing SQL Server'
+# end
 
 include_recipe 'sql_server::client'
