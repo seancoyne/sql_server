@@ -100,7 +100,7 @@ windows_package package_name do
   installer_type :custom
   options "/q /ConfigurationFile=#{config_file_path} #{passwords_options}"
   action :install
-  notifies :request_reboot #, 'reboot[sql server install]'
+  # notifies :request_reboot , 'reboot[sql server install]'
   returns [0, 42, 127, 3010]
 end
 
